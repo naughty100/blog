@@ -6,24 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <div id='app'> <!-- V---View 页面-->
-       <input type="text" v-model="username" />
-       <p>hello {{username}}</p>
+    <div id='app'>
+       <input type="text" />
+       <p>helloWorld</p>
     </div>
-    <script type="text/javascript" src="../js/vue.js"></script>
-    <script type="text/javascript" >
-        var vm = new Vue({ //VM---ViewModal 管理者vm DOM Listeners 和Data Bindings 
-            el:'#app',
-            data:{  //M---Modal 数据
-               username:'atguigu'
-            }
-        })
-    </script>
-    <!-- 
-        MVVM：
-            model：模型，数据对象（data）
-            view：视图，模板页面
-            viewModel：视图模型，vue的实例对象
-     -->
 </body>
 </html>
