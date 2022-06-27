@@ -12,8 +12,8 @@ language: en
 timezone: ''
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://naughty100.github.io/myblog'
+url: https://naughty100.github.io/myblog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -61,7 +61,7 @@ prismjs:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: /myblog/
   per_page: 10
   order_by: -date
 
